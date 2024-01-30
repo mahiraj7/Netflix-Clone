@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Netflix</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav_left">
+            <img src="images/Netflix-Logo.svg" class="nav_logo" alt=" ">
+        </div>
+        <ul class="menu flex">
+            <li>Menu</li>
+            <li>TV Shows</li>
+            <li>Movies</li>
+            <li>News & Popular</li>
+            <li>My List</li>  
+        </ul>
+        <img src="images/icons8-search.svg" class="nav_search" alt=" ">
+        <img src="images/profile.jpeg" class="nav_avatar" alt=" ">
+    </div>
+
+    <header id="banner"> 
+        <div id="banner_contents">
+            <h1 id="banner_title"></h1>
+            <div id="banner_buttons">
+                <div id="banner_button">  ▶️ Play</div>
+                <div id="banner_button"> ⓘ More info</div>
+            </div>
+            <p id="banner_description"></p>
+        </div>
+        <div id="banner_fadeBottom"></div>
+    </header>
+
+    <div id="headrow"></div>
+    <div id="movie-container"></div>
+    
+
+    <script src="app.js"></script>
+    <script>
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector(".nav");
+            nav.classList.toggle("active", window.scrollY > 0)
+        })
+    </script>
+
+    <footer>
+        <div class="social_links">
+            <img src="images/icons8-facebook.svg">
+            <img src="images/icons8-instagram.svg">
+            <img src="images/icons8-twitter.svg">
+        </div>
+        <div class="info">
+            <li>Audio Description</li>
+            <li>Help Centre</li>
+            <li>Gift Cards</li>
+            <li>Media Centre</li>
+            <li>Investor Relations</li>
+            <li>Jobs</li>
+            <li>Terms of Use</li>
+            <li>Privacy</li>
+
+        </div>
+    </footer>
+</body>
+</html>
