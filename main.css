@@ -256,7 +256,6 @@ li{
     color: #fff;
     padding: 10px 10px 10px 10px;
   }
-  
   .nav > .nav-btn {
     display: none;
   }
@@ -296,6 +295,9 @@ li{
   }
   
   @media (max-width:720px) {
+    .logo{
+        margin-left: -30% ;
+    }
     #banner_button{
         cursor: pointer;
     }
