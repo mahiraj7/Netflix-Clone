@@ -10,20 +10,30 @@
 </head>
 <body>
     <div class="nav">
-        <div class="nav_left">
-            <img src="images/Netflix-Logo.svg" class="nav_logo" alt=" ">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+            <img src="images/Netflix-Logo.svg" class="logo" alt=" ">
+            </div>
         </div>
-        <ul class="menu flex">
-            <li>Menu</li>
-            <li>TV Shows</li>
-            <li>Movies</li>
-            <li>News & Popular</li>
-            <li>My List</li>  
-        </ul>
-        <img src="images/icons8-search.svg" class="nav_search" alt=" ">
-        <img src="images/profile.jpeg" class="nav_avatar" alt=" ">
-    </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+            Browse
+            </label>
+        </div>
+        
+        <div class="nav-links">
+            <a>Home</a>
+            <a>TV Shows</a>
+            <a>Movies</a>
+            <a>New & Popular</a>
+            <a>My List</a>
+        </div>
 
+        <div class="profile-wrapper">
+            <img src="images/profile.jpeg" class="profile" alt=" ">
+        </div>
+    </div>
     <header id="banner"> 
         <div id="banner_contents">
             <h1 id="banner_title"></h1>
