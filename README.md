@@ -6,6 +6,3 @@ This project is a Netflix clone created with HTML, CSS, and JavaScript, utilizin
 - Responsive Design: The clone is designed to be responsive, providing a seamless experience across various devices and screen sizes.
 
 - User Interaction: Users can click on movie posters to view more details, such as the title, overview, and ratings. Additionally, there is a search functionality to find specific content.
-
-# SCREENSHOTS
-![Uploading Screenshot 2024-01-31 at 1.07.27 AM.png…]()
