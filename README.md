@@ -15,5 +15,5 @@ This project is a Netflix clone created with HTML, CSS, and JavaScript, utilizin
 
 <img width="1710" alt="Screenshot 2024-01-31 at 1 07 27 AM" src="https://github.com/mahiraj7/Netflix-Clone/assets/126379542/411066ad-ccc0-41b2-b513-5a94c75539a2">
 
-https://github.com/mahiraj7/Netflix-Clone/assets/126379542/259a7efa-4177-4005-99df-0562e6ad964b
+![MOBILE VIEW] (https://github.com/mahiraj7/Netflix-Clone/assets/126379542/259a7efa-4177-4005-99df-0562e6ad964b)
 
